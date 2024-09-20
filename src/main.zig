@@ -1,0 +1,9 @@
+const std = @import("std");
+
+// pub extern fn cpp_print() void;
+
+// pub fn main() !void {
+//     std.debug.print("All your {s} are belong to us.\n", .{"codebase"});
+
+//     cpp_print();
+// }
