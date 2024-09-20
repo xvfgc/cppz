@@ -1,0 +1,14 @@
+.{
+    .name = "cpp",
+
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .cpp = .{
+            .url = "git+https://github.com/xvfgc/cpp-sample.git#355abbf635e525ca282d23a80b92ca14cb2404e9",
+            .hash = "1220c7370021fa5c2436c849bdb632aeecbb660516758b8c566fc629639225087112",
+        },
+    },
+
+    .paths = .{""},
+}
