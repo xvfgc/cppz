@@ -1,11 +1,7 @@
 const std = @import("std");
 
-pub const c = @cImport("main.h");
+extern fn add(a: c_int, b: c_int) c_int;
 
-// pub extern fn cpp_print() void;
-
-// pub fn main() !void {
-//     std.debug.print("All your {s} are belong to us.\n", .{"codebase"});
-
-//     cpp_print();
-// }
+fn zadd(a: i32, b: i32) i32 {
+    return add(a, b);
+}
