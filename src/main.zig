@@ -1,5 +1,7 @@
 const std = @import("std");
 
+pub const c = @cImport("main.h");
+
 // pub extern fn cpp_print() void;
 
 // pub fn main() !void {
