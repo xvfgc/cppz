@@ -1,12 +1,10 @@
 .{
-    .name = "cpp",
-
-    .version = "0.0.0",
-
+    .name = "cppz",
+    .version = "0.1.0",
     .dependencies = .{
         .cpp = .{
-            .url = "git+https://github.com/xvfgc/cpp-sample.git#355abbf635e525ca282d23a80b92ca14cb2404e9",
-            .hash = "1220c7370021fa5c2436c849bdb632aeecbb660516758b8c566fc629639225087112",
+            .url = "git+https://github.com/xvfgc/cpp-sample.git#e694d4924578e7be35fdbb7cd5ab00f7e4d1fb0d",
+            .hash = "1220facd1f7dc54c9b86452116964f2fdf986898379caba15688cc926421983ed284",
         },
     },
 
